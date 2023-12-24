@@ -60,9 +60,9 @@ The parameters of this function are the following:
 
 
 
-### Create lists
+### Semaphores Array[]
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1688905849306/14d3331f-1f07-4f70-8269-b19c9469956f.jpeg)
+![](https://www.keil.com/pack/doc/CMSIS/RTOS/html/Semaphore.png)
 
 Use Markdown's list syntax to create ordered or unordered lists.
 
