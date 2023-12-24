@@ -35,25 +35,6 @@ And so you need to include the following library: `#include <errno.h>`.
 The inclusion of the standard library signal.h allows the use of functions for handling signals between processes: `#include <signal.h>`.
 
 
-                <a id="top"></a>
-                <div id="mw-js-message" style="display:none;"></div>
-                                <!-- firstHeading -->
-<script async="" type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYITK7M&amp;placement=cppreferencecom" id="_carbonads_js"></script><div id="carbonads"><span>
-<style>#carbonads{max-width:130px;left:-150px}#carbonads .carbon-img img{width:100% !important}</style>
-<span class="carbon-wrap">
-	<a href="https://srv.carbonads.net/ads/click/x/GTND427ECKBDVKQ7CKYLYKQUCT7ILKJYCY7DLZ3JCAYD65QUFTYD627KCWAD42QUF6BI4KQ7CKSD42JLF6AI65QKC6SITK7WC6BIKK3EHJNCLSIZ" class="carbon-img" target="_blank" rel="noopener sponsored">
-		<img src="https://srv.carbonads.net/static/30242/1e53d1c47237794c6203cbbe39552e7fa8d4a116" alt="ads via Carbon" border="0" height="100" width="130" data-no-statview="no" style="max-width: 130px;">
-	</a>
-	<a href="https://srv.carbonads.net/ads/click/x/GTND427ECKBDVKQ7CKYLYKQUCT7ILKJYCY7DLZ3JCAYD65QUFTYD627KCWAD42QUF6BI4KQ7CKSD42JLF6AI65QKC6SITK7WC6BIKK3EHJNCLSIZ" class="carbon-text" target="_blank" rel="noopener sponsored">
-		Build AI-powered web apps faster with Vercel AI SDK: a serverless, edge-ready, open-source library.
-	</a>
-</span>
-<a href="http://carbonads.net/?utm_source=cppreferencecom&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon" class="carbon-poweredby" target="_blank" rel="noopener sponsored">ads via Carbon</a>
-</span></div>
-                <h1 id="firstHeading" class="firstHeading">signal</h1>
-                <!-- /firstHeading -->
-                <!-- bodyContent -->
-                <div id="bodyContent">
                                         <!-- tagline -->
                     <div id="siteSub">From cppreference.com</div>
                     <!-- /tagline -->
@@ -318,9 +299,10 @@ Expensive parser function count: 0/100
                                                             <div class="visualClear"></div>
                     <!-- debughtml -->
                                         <!-- /debughtml -->
-                </div>
-                <!-- /bodyContent -->
-            
+                
+
+
+                
 
 ### Create lists
 
