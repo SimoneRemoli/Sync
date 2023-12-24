@@ -88,7 +88,7 @@ Please note that this operation must be correctly managed by the programmer.
 This concept was invented by Edsger Dijkstra.
 
 
-*Simone Remoli* :wink:
+Simone Remoli  :wink:
 
 
 I hope to see you there!
