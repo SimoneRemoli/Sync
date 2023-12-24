@@ -6,3 +6,5 @@
 ### :lotus_position_man: The semaphore structure is particularly useful for managing synchronization tasks between processes and threads.
 
 ### :nerd_face: Using System V technology.
+
+Semaphores enable processes to query or alter status information. They are often used to monitor and control the availability of system resources such as shared memory segments. Semaphores can be operated on as individual units or as elements in a set. 
