@@ -38,23 +38,11 @@ The inclusion of the standard library signal.h allows the use of functions for h
 
 ```
 void (*signal( int sig, void (*handler) (int))) (int);
-	
 ```
 Sets the error handler for signal sig. The signal handler can be set so that default handling will occur, signal is ignored, or a user-defined function is called. 
-
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
-
-## General info
-This project is simple Lorem ipsum dolor generator.
 	
-## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+## Parameters
+
 	
 
 
