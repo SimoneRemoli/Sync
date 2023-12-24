@@ -84,74 +84,8 @@ Each process/thread will have an element[s] available to perform withdrawal or s
 **About what? Of the token.** :vertical_traffic_light:
 Please note that this operation must be correctly managed by the programmer.
 
-1. Select the `<> Code` button.
+![](https://it.wikipedia.org/wiki/Edsger_Dijkstra#/media/File:Edsger_Wybe_Dijkstra.jpg)
 
-2. Copy the SSH link.
-
-3. Open your terminal.
-
-4. Etc.
-
-Writing the above using bullet points means the user doesn't have to follow the order. When using bullet points, stick to a reasonable number (3-4).
-
-You can lose the reader's attention by creating a long list of bullet points.
-
-### Insert links and images.
-
-Markdown allows you to insert links and images into your documentation. Use square brackets to create a link or image description, followed by the URL or file path in parentheses.
-
-For example, `[GitHub](`[`https://github.com)`](https://github.com)`) creates a link to GitHub while` ![Image](https://techwithmaddy.com/path/to/image.jpg)` inserts an image.
-
-## Creating a README File for Project Overview
-
-A README file is a crucial component of any GitHub repository.
-
-It serves as the entry point for your project, providing an overview of its purpose, features, installation instructions, and more.
-
-A README file is especially [powerful when job-searching](https://techwithmaddy.com/5-actionable-steps-to-land-your-first-software-engineering-role#heading-a-project-that-includes-a-descriptive-readme-file) because:
-
-- A non-technical recruiter can understand the purpose of the project.
-
-- It shows that you possess an additional skill (which is writing).
-
-Creating a comprehensive README file allows you to effectively communicate your project's value and encourage collaboration with other developers.
-
-### **1. Start with a project description**
-
-Begin your README file with a brief project description. Clearly state the purpose, goals, and intended audience of your project. This helps readers quickly understand your project and whether it aligns with their needs.
-
-### **2. Include installation instructions**
-
-Provide detailed instructions on how to install and set up your project.
-
-Include any dependencies, system requirements, and step-by-step instructions. This helps other developers get started with your project quickly and reduces potential issues related to installation.
-
-In this step, use numbered lists instead of bullet points.
-
-### **3. Highlight key features**
-
-Showcase the key features and functionalities of your project. This lets readers quickly grasp what your project offers and its potential benefits.
-
-Use bullet points or concise descriptions to highlight the main features.
-
-### **4. Provide usage examples**
-
-Include usage examples to help readers understand how to use your project effectively.
-
-This can include code snippets, command-line examples, or screenshots demonstrating the project in action.
-
-Real-world examples make it easier for readers to relate to your project and envision how it can solve their problems.
-
-### **5. Document API references**
-
-If your project exposes an API, [document the API endpoints](https://techwithmaddy.com/api-testing-using-postman-for-beginners), request/response formats, and authentication requirements.
-
-This helps developers integrate your project with their applications and ensures a smooth integration process.
-
-## Key Takeaways
-
-After reading this article, you know how to create the perfect documentation for your GitHub project.
-
-If you enjoyed this article, I share more content like this in my [FREE weekly newsletter](https://techwithmaddy.com/newsletter).
+This concept was invented by Edsger Dijkstra
 
 I hope to see you there!
