@@ -40,7 +40,43 @@ The inclusion of the standard library signal.h allows the use of functions for h
 Sets the error handler for signal sig. The signal handler can be set so that default handling will occur, signal is ignored, or a user-defined function is called. 
 
 
-                
+
+
+<tbody><tr class="t-par">
+<td>  sig
+</td>
+<td> -
+</td>
+<td>  the signal to set the signal handler to. It can be an implementation-defined value or one of the following values:
+<table class="t-dsc-begin">
+
+<tbody><tr class="t-dsc">
+<td>  <div class="t-dsc-member-div"><div><a href="/w/c/program/SIG_types" title="c/program/SIG types"> <span class="t-lines"><span>SIGABRT</span><span>SIGFPE</span><span>SIGILL</span><span>SIGINT</span><span>SIGSEGV</span><span>SIGTERM</span></span></a></div></div>
+</td>
+<td>   defines signal types <br> <span class="t-mark">(macro constant)</span> <span class="editsection noprint plainlinks" title="Edit this template"><a rel="nofollow" class="external text" href="https://en.cppreference.com/mwiki/index.php?title=Template:c/program/dsc_SIG_types&amp;action=edit">[edit]</a></span>
+</td></tr>
+</tbody></table>
+</td></tr>
+<tr class="t-par">
+<td>  handler
+</td>
+<td> -
+</td>
+<td>  the signal handler. This must be one of the following:
+<ul><li><span class="t-lc"><a href="/w/c/program/SIG_strategies" title="c/program/SIG strategies">SIG_DFL</a></span> macro. The signal handler is set to default signal handler.
+</li><li><span class="t-lc"><a href="/w/c/program/SIG_strategies" title="c/program/SIG strategies">SIG_IGN</a></span> macro. The signal is ignored.
+</li><li>pointer to a function. The signature of the function must be equivalent to the following:
+</li></ul>
+<table class="t-dcl-begin"><tbody>
+
+<tr class="t-dcl">
+<td class="t-dcl-nopad"> <div><span class="mw-geshi c source-c"><span class="kw4">void</span> fun<span class="br0">(</span><span class="kw4">int</span> sig<span class="br0">)</span><span class="sy4">;</span></span></div></td>
+<td class="t-dcl-nopad">  </td>
+<td class="t-dcl-nopad">  </td>
+</tr>
+<tr class="t-dcl-sep"><td></td><td></td><td></td></tr>
+</tbody></table>
+</td></tr></tbody>
 
 ### Create lists
 
