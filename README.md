@@ -84,7 +84,7 @@ Each process/thread will have an element[s] available to perform withdrawal or s
 **About what? Of the token.** :vertical_traffic_light:
 Please note that this operation must be correctly managed by the programmer.
 
-![](https://it.wikipedia.org/wiki/Edsger_Dijkstra#/media/File:Edsger_Wybe_Dijkstra.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Edsger_Wybe_Dijkstra.jpg/800px-Edsger_Wybe_Dijkstra.jpg)
 
 This concept was invented by Edsger Dijkstra
 
