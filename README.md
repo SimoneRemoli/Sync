@@ -71,14 +71,18 @@ However, this traffic must be managed.  <img src="https://cdn-icons-png.flaticon
 
 The road is a **shared resource** and many cars find themselves, at a certain moment of time, on this resource and take up space.
 
-If there were no traffic lights to regulate the flow of traffic there would be accidents.
+If there were no traffic lights to regulate the flow of traffic there would be accidents. :woozy_face:
 So we need to be able to understand which and how many threads or processes (or both) to pass through to correctly manage the flow.
 
-A Linux semaphore cannot have a negative value, so when all threads have taken their token, the semaphore remains set to zero.
+**A Linux semaphore cannot have a negative value**, so when all threads have taken their token, the semaphore remains set to zero.
 The concept of the semaphore array is important, because thanks to it we are able to atomically perform a specific operation assigned to just one (!) thread.
 
 The thread/process accesses the shared resource by taking a token and returns the token to whoever wants: it can return it to the same semaphore structure to which it belongs, or another structure not necessarily an array.
 Typically if the main thread has to handle simple operations the traffic light configuration is not an array, but a single token dispenser.
+
+Each process/thread will have an element[s] available to perform withdrawal or supply operations.
+**About what? Of the token.** :vertical_traffic_light:
+Please note that this operation must be correctly managed by the programmer.
 
 1. Select the `<> Code` button.
 
