@@ -12,9 +12,9 @@ Semaphore operations are performed by semop. This interface takes a pointer to a
 Only one process at a time can update a semaphore. Simultaneous requests by different processes are performed in an arbitrary order. When an array of operations is given by a semop call, no updates are done until all operations on the array can finish successfully. 
 
 ### :nerd_face: Synch
-).
 
-This highlights the code and maintains its formatting, making it easier for readers to distinguish between code and regular text.
+The codes you will find will have to manage the synchronization between threads and processes.
+You will also be able to see the management of synchronization between different processes where each of them will have an arbitrary number of threads to manage.
 
 ### Add emphasis and a strong emphasis
 
