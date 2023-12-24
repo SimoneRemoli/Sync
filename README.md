@@ -32,6 +32,29 @@ If a blocking operation is activated the system call has aborted.
 Consequently, the **ERRNO** environment variable is set to **EINTR**.
 And so you need to include the following library: `#include <errno.h>`.
 
+The inclusion of the standard library signal.h allows the use of functions for handling signals between processes:`#include <signal.h>`.
+
+void (*signal( int sig, void (*handler) (int))) (int);
+		
+		
+
+Sets the error handler for signal sig. The signal handler can be set so that default handling will occur, signal is ignored, or a user-defined function is called.
+
+When signal handler is set to a function and a signal occurs, it is implementation defined whether signal(sig, SIG_DFL) will be executed immediately before the start of signal handler. Also, the implementation can prevent some implementation-defined set of signals from occurring while the signal handler runs.
+Parameters
+sig 	- 	the signal to set the signal handler to. It can be an implementation-defined value or one of the following values:
+SIGABRTSIGFPESIGILLSIGINTSIGSEGVSIGTERM
+	defines signal types
+(macro constant)
+handler 	- 	the signal handler. This must be one of the following:
+
+    SIG_DFL macro. The signal handler is set to default signal handler.
+    SIG_IGN macro. The signal is ignored.
+    pointer to a function. The signature of the function must be equivalent to the following: 
+
+void fun(int sig);
+	
+
 ### Create lists
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1688905849306/14d3331f-1f07-4f70-8269-b19c9469956f.jpeg)
