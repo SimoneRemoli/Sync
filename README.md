@@ -16,7 +16,7 @@ Only one process at a time can update a semaphore. Simultaneous requests by diff
 The codes you will find will have to manage the synchronization between threads and processes.
 You will also be able to see the management of synchronization between different processes where each of them will have an arbitrary number of threads to manage.
 
-### Execution from Unix
+### Execution from Unix and Library
 
 Use "lpthread" means link with a library called pthread.
 
@@ -42,6 +42,17 @@ void (*signal( int sig, void (*handler) (int))) (int);
 Sets the error handler for signal sig. The signal handler can be set so that default handling will occur, signal is ignored, or a user-defined function is called. 
 	
 ## Parameters
+The parameters of this function are the following:
+* sig: the signal to set the signal handler to. It can be an implementation-defined value or one of the following values: **SIGABRT** **SIGFPE** **SIGILL** **SIGINT** **SIGSEGV** **SIGTERM**.
+* handler: the signal handler. This must be one of the following:
+
+    SIG_DFL macro. The signal handler is set to default signal handler.
+    SIG_IGN macro. The signal is ignored.
+    pointer to a function. The signature of the function must be equivalent to the following: 
+
+void fun(int sig);
+	
+
 
 	
 
