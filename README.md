@@ -16,13 +16,11 @@ Only one process at a time can update a semaphore. Simultaneous requests by diff
 The codes you will find will have to manage the synchronization between threads and processes.
 You will also be able to see the management of synchronization between different processes where each of them will have an arbitrary number of threads to manage.
 
-### Add emphasis and a strong emphasis
+### Execution from Unix
 
-Use asterisks (\*) or underscores (\_) to add focus or strong emphasis to the text.
+Use "lpthread" means link with a library called pthread.
 
-This helps in drawing attention to important information.
-
-For example, `*italic*` or `_italic_` renders as _italic_, while ` **bold** ` or ` __bold__ ` renders as **bold**.
+For example, `gcc file_name.c -lpthread` and  `./a.out param1 param2 param3 param4 ... ` renders as _italic_, while ` **bold** ` or ` __bold__ ` renders as **bold**.
 
 ### Create lists
 
