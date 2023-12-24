@@ -24,6 +24,8 @@ For example, `gcc file_name.c -lpthread` and  `./a.out param1 param2 param3 para
 The double **argv** **character pointer** is used to retrieve the parameters.
 In fact, in all codes you can assign the argc parameter to a global variable to maintain passed information.
 
+There is a need to include the pthread library: '**#include <pthread.h>**'
+
 ### Create lists
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1688905849306/14d3331f-1f07-4f70-8269-b19c9469956f.jpeg)
