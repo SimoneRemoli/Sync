@@ -47,7 +47,9 @@ The parameters of this function are the following:
 * handler: the signal handler. This must be one of the following:
 
     **SIG_DFL** macro. The signal handler is set to default signal handler.
+  
     **SIG_IGN** macro. The signal is ignored.
+  
     **Pointer to a function.** The signature of the function must be equivalent to the following: `void fun(int sig);`.
 	
 
