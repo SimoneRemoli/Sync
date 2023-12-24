@@ -4,3 +4,5 @@
 </h1>
 
 ### :lotus_position_man: The semaphore structure is particularly useful for managing synchronization tasks between processes and threads.
+
+### :nerd_face: Using System V technology.
