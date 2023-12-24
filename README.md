@@ -35,7 +35,7 @@ And so you need to include the following library: `#include <errno.h>`.
 The inclusion of the standard library signal.h allows the use of functions for handling signals between processes: `#include <signal.h>`. 
 
 
-`void (*signal( int sig, void (*handler) (int))) (int)`.
+**void (*signal( int sig, void (*handler) (int))) (int)**.
 Sets the error handler for signal sig. The signal handler can be set so that default handling will occur, signal is ignored, or a user-defined function is called. 
 
 
