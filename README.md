@@ -85,6 +85,9 @@ Each process/thread will have an element[s] available to perform withdrawal or s
 Please note that this operation must be correctly managed by the programmer.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Edsger_Wybe_Dijkstra.jpg/800px-Edsger_Wybe_Dijkstra.jpg" width="135px"/>
-This concept was invented by Edsger Dijkstra
+This concept was invented by Edsger Dijkstra.
+
+/*Simone Remoli*/
+
 
 I hope to see you there!
