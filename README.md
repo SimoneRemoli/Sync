@@ -20,7 +20,9 @@ You will also be able to see the management of synchronization between different
 
 Use "lpthread" means link with a library called pthread.
 
-For example, `gcc file_name.c -lpthread` and  `./a.out param1 param2 param3 param4 ... ` renders as _italic_, while ` **bold** ` or ` __bold__ ` renders as **bold**.
+For example, `gcc file_name.c -lpthread` and  `./a.out param1 param2 param3 param4 ... ` 
+The double **argv** **character pointer** is used to retrieve the parameters.
+In fact, in all codes you can assign the argc parameter to a global variable to maintain passed information.
 
 ### Create lists
 
