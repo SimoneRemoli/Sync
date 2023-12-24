@@ -24,7 +24,13 @@ For example, `gcc file_name.c -lpthread` and  `./a.out param1 param2 param3 para
 The double **argv** **character pointer** is used to retrieve the parameters.
 In fact, in all codes you can assign the argc parameter to a global variable to maintain passed information.
 
-There is a need to include the pthread library:`#include <pthread.h>`
+There is a need to include the pthread library:`#include <pthread.h>`.
+
+However, that's not the only library to include.
+After each traffic light operation we must check whether the operation we have performed is blocking.
+If a blocking operation is activated the system call has aborted.
+Consequently, the **ERRNO** environment variable is set to **EINTR**.
+And so you need to include the following library: `#include <errno.h>`.
 
 ### Create lists
 
