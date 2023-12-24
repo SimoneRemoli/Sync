@@ -64,13 +64,21 @@ The parameters of this function are the following:
 
 ![](https://www.keil.com/pack/doc/CMSIS/RTOS/html/Semaphore.png)
 
-Use Markdown's list syntax to create ordered or unordered lists.
+You have to imagine the **busy world** .
 
-Note the difference between ordered and unordered lists: use numbered lists when the order matters. Use bullet points when the order is not important.
+In Rome there is a large national road called **"Via Tiburtina"** (spoiler: the whole city of Rome is busy) where there is a **traffic light every two hundred metres**, and a very long queue forms, especially around 6pm. :dizzy_face:
+However, this traffic must be managed.  <img src="https://cdn-icons-png.flaticon.com/512/1189/1189462.png" width="20px"/>
 
-Often people mistake the two, and it adds confusion to the documentation.
+The road is a **shared resource** and many cars find themselves, at a certain moment of time, on this resource and take up space.
 
-Use numbered lists to explain procedural concepts. For example, to explain how to clone a GitHub repository to a local machine, you'll write something like this:
+If there were no traffic lights to regulate the flow of traffic there would be accidents.
+So we need to be able to understand which and how many threads or processes (or both) to pass through to correctly manage the flow.
+
+A Linux semaphore cannot have a negative value, so when all threads have taken their token, the semaphore remains set to zero.
+The concept of the semaphore array is important, because thanks to it we are able to atomically perform a specific operation assigned to just one (!) thread.
+
+The thread/process accesses the shared resource by taking a token and returns the token to whoever wants: it can return it to the same semaphore structure to which it belongs, or another structure not necessarily an array.
+Typically if the main thread has to handle simple operations the traffic light configuration is not an array, but a single token dispenser.
 
 1. Select the `<> Code` button.
 
