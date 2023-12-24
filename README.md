@@ -33,21 +33,9 @@ Consequently, the **ERRNO** environment variable is set to **EINTR**.
 And so you need to include the following library: `#include <errno.h>`.
 
 The inclusion of the standard library signal.h allows the use of functions for handling signals between processes: `#include <signal.h>`.
+`void (*signal( int sig, void (*handler) (int))) (int)`.
+Sets the error handler for signal sig. The signal handler can be set so that default handling will occur, signal is ignored, or a user-defined function is called. 
 
-<tbody>
-<tr class="t-dsc-header">
-<td> <div>Defined in header <code>&lt;signal.h&gt;</code>
- </div></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="t-dcl">
-<td class="t-dcl-nopad"> <div><span class="mw-geshi c source-c"><span class="kw4">void</span> <span class="br0">(</span><span class="sy2">*</span>signal<span class="br0">(</span> <span class="kw4">int</span> sig, <span class="kw4">void</span> <span class="br0">(</span><span class="sy2">*</span>handler<span class="br0">)</span> <span class="br0">(</span><span class="kw4">int</span><span class="br0">)</span><span class="br0">)</span><span class="br0">)</span> <span class="br0">(</span><span class="kw4">int</span><span class="br0">)</span><span class="sy4">;</span></span></div></td>
-<td class="t-dcl-nopad">  </td>
-<td class="t-dcl-nopad">  </td>
-</tr>
-<tr class="t-dcl-sep"><td></td><td></td><td></td></tr>
-</tbody>
 
                 
 
