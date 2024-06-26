@@ -62,7 +62,7 @@ The parameters of this function are the following:
 
 ### Semaphores Array[]
 
-![](https://www.keil.com/pack/doc/CMSIS/RTOS/html/Semaphore.png)
+![](https://qph.cf2.quoracdn.net/main-qimg-896143d07045e3abb906855a5530671e)
 
 You have to imagine the **busy world** .
 
