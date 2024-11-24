@@ -4,6 +4,7 @@
 </h1>
 
 ### :lotus_position_man: The semaphore structure is particularly useful for managing synchronization tasks between processes and threads.
+![DALL·E 2024-11-24 10 54 24 - Un semaforo che integra elementi dell'informatica, con un design futuristico  Ogni luce del semaforo (rosso, giallo, verde) rappresenta simboli legati](https://github.com/user-attachments/assets/ecff34fc-32f5-45a0-bca1-5d1eb4a6d518)
 
 ### :nerd_face: Using System V technology.
 
