@@ -92,7 +92,6 @@ void setting(int*);
 
 /*
 Studente : Simone Remoli
-Matricola: 0280114
 
 L'implementazione prevede l'ausilio di due semafori - in modo particolare di due singoli distributori di gettoni - 
 che gestiranno la sincronizzazione fra il main thread e il singolo thread che verrà attivato.
@@ -142,9 +141,7 @@ int main(int argc, char** argv)
 	if(ret == -1)
 		fprintf(stderr, "Errore nel settaggio semaforico [*] \n");
 	
-	//FQ no i thread vanno creati on demand quando le stringhe in input giungono
 	pthread_create(&T, NULL, worker, ptr);
-	//FQ gestore impostato non atomico
 	signal(SIGINT, handle);	
 	
 	while(1)
@@ -158,11 +155,9 @@ redo1:
 			if(errno == EINTR)
 				goto redo1;
 		printf(">>");
-		//FQ no stai prendendo linee non stringhe
 		if(fgets(buffer, 1024, stdin))
 			buffer[strcspn(buffer, "\n")] = 0;
 		
-		//FQ avresti dovuto attivare thread in questa zona di codice
 		oper.sem_op = 1;
 		oper.sem_flg = 0;
 		oper.sem_num = 0;
@@ -229,7 +224,6 @@ redo2:
 
 void handle(int unused)
 {
-	//FQ gestore non atomico non corretto per il reale contenuto del file
 	open(nomefile, O_TRUNC);
 	printf("\n");
 	for(int i = 0;i < numero_stringhe; i++)
